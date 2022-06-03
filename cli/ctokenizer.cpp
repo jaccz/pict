@@ -309,6 +309,8 @@ void ConstraintsTokenizer::parseTerm( IN OUT CTokenList& tokens )
                 try
                 {
                     getValueSet( *valueSet );
+                    // CodeQL issue
+                    if( valueSet == NULL ) return;
                 }
                 catch( ... )
                 {
