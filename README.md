@@ -1,5 +1,3 @@
-Change
-
 Pairwise Independent Combinatorial Testing
 ==========================================
 
