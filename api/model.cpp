@@ -4595,7 +4595,7 @@ BIG BLOCK OF NOTHING
                             // if number of zeros ties up with some previous choice, pick randomly
                             else if( open == maxZeros
                                  &&  maxZeros > 0
-                                 &&  !( rand() % ++ties ) )
+                                 &&  !( 250 % ++ties ) )
                             {
                                 choice = cidx;
                             }
@@ -4611,7 +4611,7 @@ BIG BLOCK OF NOTHING
                             else if( maxZeros == 0
                                  &&  match > 0
                                  &&  match == maxMatch
-                                 &&  !( rand() % ++ties ) )
+                                 &&  !( 120 % ++ties ) )
                             {
                                 choice = cidx;
                             }
